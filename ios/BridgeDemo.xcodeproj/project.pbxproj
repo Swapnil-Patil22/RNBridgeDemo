@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-BridgeDemo-BridgeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BridgeDemo-BridgeDemoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92E142562B4EB49D00D815D2 /* NumberSumModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E142552B4EB49D00D815D2 /* NumberSumModule.m */; };
+		92E142572B4EB49D00D815D2 /* NumberSumModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E142552B4EB49D00D815D2 /* NumberSumModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-BridgeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BridgeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BridgeDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BridgeDemo-BridgeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgeDemo-BridgeDemoTests.release.xcconfig"; path = "Target Support Files/Pods-BridgeDemo-BridgeDemoTests/Pods-BridgeDemo-BridgeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		92E142542B4EB45700D815D2 /* NumberSumModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberSumModule.h; sourceTree = "<group>"; };
+		92E142552B4EB49D00D815D2 /* NumberSumModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberSumModule.m; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				92E142542B4EB45700D815D2 /* NumberSumModule.h */,
+				92E142552B4EB49D00D815D2 /* NumberSumModule.m */,
 			);
 			name = BridgeDemo;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E142572B4EB49D00D815D2 /* NumberSumModule.m in Sources */,
 				00E356F31AD99517003FC87E /* BridgeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				92E142562B4EB49D00D815D2 /* NumberSumModule.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
