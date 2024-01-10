@@ -46,7 +46,7 @@ function App() {
           keyboardType="numeric"
           value={num2}
           onChangeText={text => setNum2(text)}
-          style={{marginTop: 20}}
+          style={{marginTop: 22}}
         />
         <View style={{height: 1, width: '100%', backgroundColor: 'black'}} />
 
