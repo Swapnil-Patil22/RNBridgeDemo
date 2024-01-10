@@ -17,7 +17,7 @@ class NumberSumModule(reactContext: ReactApplicationContext) : ReactContextBaseJ
     fun calculateSum(num1: Double, num2: Double, promise: Promise) {
        Log.d("adding","aaa")
         try {
-            val sum = num1 + num2 + 10
+            val sum = num1 + num2 
             promise.resolve(sum)
         } catch (e: Exception) {
             promise.reject("CALCULATION_ERROR", "Error performing calculation", e)
